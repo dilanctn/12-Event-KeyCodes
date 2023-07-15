@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Caprasimo&family=EB+Garamond&family=Fasthand&family=Montserrat:wght@400;700&family=Pacifico&family=Roboto+Slab:wght@100;300;400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ccd5ae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+}
+
+.key {
+    border: 2px solid #faedcd;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    /*yanyanaaldık*/
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    flex-direction: column;
+    /*satıra sığmazsa aşağı insin yazılar*/
+    margin: 10px;
+    font-weight: bold;
+    min-width: 150px;
+    position: relative;
+}
+
+.key small {
+    position: absolute;
+    top: -24px;
+    left: 0;
+    width: 100%;
+    /*width olmazsa align ile ortalama yapmaz*/
+    text-align: center;
+    color: #588157;
+    font-size: 14px;
+}
